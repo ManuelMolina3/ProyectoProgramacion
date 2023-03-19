@@ -12,6 +12,12 @@ public class GestionDeDatos {
 		this.contra = contra;
 		this.correo = correo;
 	}
+	
+
+	public GestionDeDatos() {
+		super();
+	}
+
 
 	public String getUsr() {
 		return usr;
